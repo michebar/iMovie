@@ -1,0 +1,58 @@
+#movies img{
+    width: 80%;
+}
+
+*{
+direction: ltr;
+}
+
+.question{
+    float: right;
+    width: 21.5%;
+    margin-right: 2.8%;
+    text-align: center;
+}
+
+main p,main h3,main h4{
+    direction: rtl;
+}
+
+#movies p{
+    text-align: center;
+    float: right;
+    width: 15%;
+    margin-right: 1.5%;
+    margin-bottom: 30px;
+}
+
+main{
+    overflow-y: scroll;
+}
+rect{
+    fill:#C8E0D7 !important;
+}
+g path{
+    fill:#EFC00C;
+    opacity: 0.8;
+}
+h1{
+    background-color: #A09EBA;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.movieRes{
+    width:40%;
+    direction: ltr !important;
+}
+#comedy, #action, #romance, #horror{
+
+        width: 23%;
+        display: inline-block;
+    direction: ltr !important;
+}
+#movieSection{
+    text-align: center;
+        direction: ltr !important;
+}

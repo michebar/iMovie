@@ -1,0 +1,54 @@
+section{
+    width: 25%;
+    float: right;
+}
+
+.movieTitle{
+    font-family:Heebo;
+}
+h2{
+    text-align: center;
+}
+
+#resTitle{
+    width: 100%;
+    background-color: #A09EBA;
+    padding-bottom: 10px;
+    
+}
+#resTitle h2{
+    margin-top: 0px;
+    padding-top: 20px;
+    
+}
+
+.movieResFirst{
+    width:15%;
+    margin: auto;
+}
+
+#firstmovie{
+    text-align: center;
+    overflow:auto;
+}
+
+.movieRes{
+    width:40%;
+}
+#second, #third, #forth{
+        width: 33%;
+}
+#movieSection{
+    text-align: center;
+}
+
+h1{
+    background-color: #A09EBA;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+main{
+    overflow-y: scroll;
+}

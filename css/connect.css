@@ -1,0 +1,63 @@
+#register, #connect{
+	border-radius: 5px;
+	background-color: white;
+	width: 30%;
+	overflow: hidden;
+	margin: 3% auto;
+	text-align: center;
+	padding: 2%;
+}
+
+ul{
+    padding-right: 0;
+}
+
+li{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+form{
+    text-align: left;
+    padding-left: 20%;
+}
+
+lable{
+    font-size: 17px;
+    font-weight: none;
+}
+
+.formIntro{
+    margin-top: 7%;
+}
+
+form input, select {
+    background-color: #ffeeec; 
+    border: none; 
+    border-radius: 5px; 
+    font-weight: normal; 
+    outline: none;
+    width: 130px;
+    text-align: center;
+    height: 28px;
+}
+
+#passwordCheck{
+    font-size: 10px; 
+}
+
+.button{
+	background-color: #ff8c62 ;
+	color: white;
+    display: inline;
+	box-shadow: 5px 5px #ffeeec;
+	border-radius: 10px;
+	padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#loginError, #signinError{
+    color: red;
+}
